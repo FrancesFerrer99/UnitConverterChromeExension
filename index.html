@@ -13,8 +13,25 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <input type="text" id="input" placeholder="0">
-        <button onclick="convert()">Convert</button>
+        <header id="header">
+            <h1 id="title">Metric/Imperial Unit converter</h1>
+            <input type="text" id="input" value="1">
+            <button id="convert">Convert</button>
+        </header>
+        <main>
+            <div class="container">
+                <h3>Lenght (Meter/Feet)</h3>
+                <p id="lenght"></p>
+            </div>
+            <div class="container">
+                <h3>Volume (Liters/Gallons)</h3>
+                <p id="volume"></p>
+            </div>
+            <div class="container">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id="mass"></p>
+            </div>
+        </main>
         <script src="index.js" async defer></script>
     </body>
 </html>
